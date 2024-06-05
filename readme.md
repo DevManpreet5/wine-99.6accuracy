@@ -65,7 +65,10 @@ Here are the models used and their respective results:
 7. **Decision Tree**
    - Accuracy: 99.67%
 
+8. **Bagging Classifier with Support Vector Machine (SVM)**
+   - Accuracy: 99.72%
+   - Model: `BaggingClassifier(estimator=SVC(), n_estimators=10, random_state=0)`
+
 ## Conclusion
 
-The KNN, SVM, and Decision Tree models achieved the highest accuracy of 99.67% in predicting whether a wine is red or white. The preprocessing techniques such as scaling and power transformation significantly improved the performance of Naive Bayes models.
-
+The Bagging Classifier with SVM achieved the highest accuracy of 99.72% in predicting whether a wine is red or white. The preprocessing techniques such as scaling and power transformation significantly improved the performance of Naive Bayes models.
